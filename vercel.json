@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "ecegpa.html", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/", "dest": "/ecegpa.html" }
+  ]
+}
